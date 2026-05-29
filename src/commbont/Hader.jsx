@@ -23,7 +23,7 @@ export default function Hader() {
 
 
                     {/* <NavLink className={({ isActive }) => (isActive ? 'bg-white/35  rounded-2xl px-2 py-1' : 'opacity-50')}> */}
-                    <a href='/Home' onClick={() => setActive('home')} className={`${active === 'home' ? 'bg-[#ffffff75] shadow-2xl flex items-center justify-center h-10 underline underline-offset-4  transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl px-4 `}>Home</a>
+                    <a href='#Home' onClick={() => setActive('home')} className={`${active === 'home' ? 'bg-[#ffffff75] shadow-2xl flex items-center justify-center h-10 underline underline-offset-4  transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl px-4 `}>Home</a>
                     <a href='#Abo' onClick={() => setActive('abo')} className={`${active === 'abo' ? 'bg-[#ffffff75] flex shadow-2xl items-center justify-center h-10 underline underline-offset-4 transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl px-4`}>About me</a>
                     <a href='#ski' onClick={() => setActive('ski')} className={`${active === 'ski' ? 'bg-[#ffffff75] flex items-center shadow-2xl justify-center h-10 underline underline-offset-4 transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl px-4 `}>Skills</a>
                     <a href='#Projects' onClick={() => setActive('Projects')} className={`${active === 'Projects' ? 'bg-[#ffffff75]  flex items-center shadow-2xl underline underline-offset-4 justify-center h-10 transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl px-4`}>Projects</a>
@@ -77,7 +77,7 @@ export default function Hader() {
                     {/* <li className='border-b'><a href='#Home'>Home</a></li>
                     <li className='border-b'><a href='#Abo'>About me</a></li> */}
 
-                    <a href='/Home' onClick={() => setActive('home')} className={`${active === 'home' ? 'bg-[#ffffff75] shadow-2xl flex items-center   transition-all duration-300 scale-110' : 'opacity-50'}  rounded-2xl px-4 py-2 `}>Home</a>
+                    <a href='#Home' onClick={() => setActive('home')} className={`${active === 'home' ? 'bg-[#ffffff75] shadow-2xl flex items-center   transition-all duration-300 scale-110' : 'opacity-50'}  rounded-2xl px-4 py-2 `}>Home</a>
                     <a href='#Abo' onClick={() => setActive('abo')} className={`${active === 'abo' ? 'bg-[#ffffff75] flex shadow-2xl items-center   transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl py-2 px-4`}>About me</a>
                     <a href='#ski' onClick={() => setActive('ski')} className={`${active === 'ski' ? 'bg-[#ffffff75] flex items-center shadow-2xl  transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl px-4 py-2 `}>Skills</a>
                     <a href='#Projects' onClick={() => setActive('Projects')} className={`${active === 'Projects' ? 'bg-[#ffffff75]  flex items-center shadow-2xl transition-all duration-300 scale-110' : 'opacity-50'} rounded-2xl py-2  px-4`}>Projects</a>
