@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@import 'tailwind-animations';
+@plugin "daisyui";
+
+/* .custom-shape-divider-top-1779462242 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1779462242 svg {
+    position: relative;
+    display: block;
+    width: calc(300% + 1.3px);
+    height: 207px;
+}
+
+.custom-shape-divider-top-1779462242 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+ @media (max-width: 767px) {
+    .custom-shape-divider-top-1779462242 svg {
+        width: calc(295% + 1.3px);
+        height: 485px;
+    }
+} */ 
